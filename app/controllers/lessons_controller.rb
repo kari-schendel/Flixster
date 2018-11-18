@@ -1,5 +1,6 @@
 class LessonsController < ApplicationController
   def show
+    @current_lesson = current_lesson
   end
 
   private
